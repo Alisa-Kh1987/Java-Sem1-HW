@@ -12,6 +12,7 @@ public class Task12 {
                 maxnumb = myArray[i];
             }
         System.out.println("Максимальный элемент массива: " + maxnumb);
+        
         for (int i=1; i<myArray.length;i++)
         if (myArray[i]<minnumb){
             minnumb = myArray[i];
