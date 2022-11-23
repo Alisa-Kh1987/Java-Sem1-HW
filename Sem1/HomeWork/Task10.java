@@ -15,7 +15,7 @@ public class Task10 {
         int[][] myArray = new int[n][n];
 
         for (int i = 0; i < myArray.length; i++) {
-            for (int j = 0; j < myArray[i].length; n = myArray[i].length, j++, n--) {
+            for (int j = 0; j < myArray.length; n = myArray.length, j++, n--) {
                 if (i == j || i == n - j) {
                     myArray[i][j] = 1;
                 }
