@@ -29,7 +29,7 @@ public class Task2_sem3 {
         for (int i = 0; i < n; i++) {
             sum_numbers += myArray.get(i);
         }
-        System.out.println("Сумма чисел списка: " + sum_numbers); //для удобства подсчета
+        System.out.println("Сумма чисел списка: " + sum_numbers); //для удобства подсчета среднего арифм.
         double average_value = (double) sum_numbers / n;
         System.out.printf("Среднее: " +"%.3f",average_value);
     }
