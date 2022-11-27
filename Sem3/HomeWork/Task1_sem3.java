@@ -7,7 +7,6 @@ import java.util.Iterator;
 import java.util.Random;
 import java.util.Scanner;
 
-
 public class Task1_sem3 {
     public static void main(String[] args) {
         Random random = new Random();
@@ -16,25 +15,23 @@ public class Task1_sem3 {
         System.out.print("Введите размер списка int n = ");
         int n = sc.nextInt();
 
-        for (int i = 0; i < n; i++){
-            int number = random.nextInt(-25,50);
+        for (int i = 0; i < n; i++) {
+            int number = random.nextInt(-25, 50);
             myArray.add(number);
         }
 
         System.out.println("Исходный список: " + myArray);
         sc.close();
-        
 
         for (Iterator<Integer> iterator = myArray.iterator(); iterator.hasNext();) {
             Integer number = iterator.next();
             if (number % 2 == 0) {
-                //System.out.println("This is Even Number: " + number);
+                // System.out.println("This is Even Number: " + number);
                 iterator.remove();
             }
         }
 
-
         System.out.println("Конечный список: " + myArray);
-        
+
     }
 }

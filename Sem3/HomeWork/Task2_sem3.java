@@ -22,15 +22,15 @@ public class Task2_sem3 {
         System.out.println("Наш список: " + myArray);
         sc.close();
 
-        System.out.println(Collections.max(myArray));
-        System.out.println(Collections.min(myArray));
+        System.out.println("Максимальное значение списка: " + Collections.max(myArray));
+        System.out.println("Минимальное значение списка: " + Collections.min(myArray));
 
         int sum_numbers = 0;
         for (int i = 0; i < n; i++) {
             sum_numbers += myArray.get(i);
         }
-        System.out.println(sum_numbers);
+        System.out.println("Сумма чисел списка: " + sum_numbers); //для удобства подсчета
         double average_value = (double) sum_numbers / n;
-        System.out.println("Cреднее значение списка: " + average_value);
+        System.out.printf("Среднее: " +"%.3f",average_value);
     }
 }
