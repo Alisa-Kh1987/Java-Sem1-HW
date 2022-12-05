@@ -32,9 +32,6 @@ public class Task1 {
     int arabian_num = 0;
     char[] charArray = romanNum.toCharArray();
 
-    // 
-    // 
-
     for (int i = 0; i < charArray.length;i++) {
       if(i == charArray.length - 1) {
         arabian_num = arabian_num + rom_Map.get(charArray[i]);
