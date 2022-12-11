@@ -1,0 +1,301 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Task4",
+            "request": "launch",
+            "mainClass": "Exception_sem1.HW_excep1.Task4",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task3",
+            "request": "launch",
+            "mainClass": "Exception_sem1.HW_excep1.Task3",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task1",
+            "request": "launch",
+            "mainClass": "Exception_sem1.HW_excep1.Task1",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch One",
+            "request": "launch",
+            "mainClass": "Exception_sem1.One",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Two",
+            "request": "launch",
+            "mainClass": "Exception_sem1.Two",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Counter",
+            "request": "launch",
+            "mainClass": "Sem1.Counter",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindIndex",
+            "request": "launch",
+            "mainClass": "Sem1.FindIndex",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task1",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task1",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task10",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task10",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task11",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task11",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task12",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task12",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task2",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task2",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task3",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task3",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task4",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task4",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task5",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task5",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task6",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task6",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task7",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task7",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task8",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task8",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task9",
+            "request": "launch",
+            "mainClass": "Sem1.HomeWork.Task9",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Programm",
+            "request": "launch",
+            "mainClass": "Sem1.Programm",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReversAndPrint",
+            "request": "launch",
+            "mainClass": "Sem1.ReversAndPrint",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuildString",
+            "request": "launch",
+            "mainClass": "Sem2.BuildString",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Compress",
+            "request": "launch",
+            "mainClass": "Sem2.Compress",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task1_sem2",
+            "request": "launch",
+            "mainClass": "Sem2.HomeWork.Task1_sem2",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cout_str",
+            "request": "launch",
+            "mainClass": "Sem3.Cout_str",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task1_sem3",
+            "request": "launch",
+            "mainClass": "Sem3.HomeWork.Task1_sem3",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task2_sem3",
+            "request": "launch",
+            "mainClass": "Sem3.HomeWork.Task2_sem3",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uniq_str",
+            "request": "launch",
+            "mainClass": "Sem3.Uniq_str",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task1(1)",
+            "request": "launch",
+            "mainClass": "Sem4.HomeWork4.Task1",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task2(1)",
+            "request": "launch",
+            "mainClass": "Sem4.HomeWork4.Task2",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task3(1)",
+            "request": "launch",
+            "mainClass": "Sem4.HomeWork4.Task3",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task4(1)",
+            "request": "launch",
+            "mainClass": "Sem4.HomeWork4.Task4",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Millisec",
+            "request": "launch",
+            "mainClass": "Sem4.Millisec",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task1(2)",
+            "request": "launch",
+            "mainClass": "Sem5.HomeWork5.Task1",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task2(2)",
+            "request": "launch",
+            "mainClass": "Sem5.HomeWork5.Task2",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task1(3)",
+            "request": "launch",
+            "mainClass": "Sem5.Task1",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task2(3)",
+            "request": "launch",
+            "mainClass": "Sem5.Task2",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task3(2)",
+            "request": "launch",
+            "mainClass": "Sem5.Task3",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Sem6.HomeWork6.Main",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task1(4)",
+            "request": "launch",
+            "mainClass": "Sem6.HomeWork6.Task1",
+            "projectName": "Java_2de1527f"
+        },
+        {
+            "type": "java",
+            "name": "Launch One(1)",
+            "request": "launch",
+            "mainClass": "Sem6.One",
+            "projectName": "Java_2de1527f"
+        }
+    ]
+}
