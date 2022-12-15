@@ -15,7 +15,7 @@ public class Task1_hw2 {
         String floatNumbPattern = "-[]<>d+[0-9]*\\.\\d+)[0-9]?";
 
         while (!float_num.matches(floatNumbPattern)) {
-            System.out.printf("Необходимо было ввести дробное число! Повторите ввод: ");
+            System.out.print("Необходимо было ввести дробное число! Повторите ввод: ");
             float_num = sc.next();
         }
         System.out.println("Введенное число: " + float_num);
