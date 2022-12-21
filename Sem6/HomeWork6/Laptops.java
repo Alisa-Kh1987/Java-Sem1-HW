@@ -2,7 +2,7 @@ package Sem6.HomeWork6;
 
 public class Laptops {
     private String brand;
-    private int HDD;
+    private int HHD;
     private int RAM;
     private int displaySize;
     private String OS;
@@ -10,9 +10,9 @@ public class Laptops {
     private int USB_count;
     private int price;
 
-    public Laptops(String brand, int HDD, int RAM, int displaySize, String OS, String color, int USB_count, int price) {
+    public Laptops(String brand, int HHD, int RAM, int displaySize, String OS, String color, int USB_count, int price) {
         this.brand = brand;
-        this.HDD = HDD;
+        this.HHD = HHD;
         this.RAM = RAM;
         this.displaySize = displaySize;
         this.OS = OS;
@@ -26,7 +26,7 @@ public class Laptops {
         final int prime = 31;
         int result = 1;
         result = prime * result + ((brand == null) ? 0 : brand.hashCode());
-        result = prime * result + HDD;
+        result = prime * result + HHD;
         result = prime * result + RAM;
         result = prime * result + displaySize;
         result = prime * result + ((OS == null) ? 0 : OS.hashCode());
@@ -51,7 +51,7 @@ public class Laptops {
                 return false;
         } else if (!brand.equals(other.brand))
             return false;
-        if (HDD != other.HDD)
+        if (HHD != other.HHD)
             return false;
         if (RAM != other.RAM)
             return false;
@@ -60,8 +60,8 @@ public class Laptops {
         if (OS == null) {
             if (other.OS != null)
                 return false;
-            } else if (!OS.equals(other.OS))
-                return false;
+        } else if (!OS.equals(other.OS))
+            return false;
         if (color == null) {
             if (other.color != null)
                 return false;
@@ -82,12 +82,12 @@ public class Laptops {
         this.brand = brand;
     }
 
-    public int getHDD() {
-        return HDD;
+    public int getHHD() {
+        return HHD;
     }
 
-    public void setHDD(int HDD) {
-        this.HDD = HDD;
+    public void setHHD(int HHD) {
+        this.HHD = HHD;
     }
 
     public int getRAM() {
@@ -140,9 +140,8 @@ public class Laptops {
 
     @Override
     public String toString() {
-        return "{brand: " + brand + ", HDD: " + HDD + ", RAM: " + RAM + ", displaySize: " + displaySize + 
-        ", OS: " + OS + ", color: " + color + ", USB_count: " + USB_count + ", price: " + price +"}";
+        return "{brand: " + brand + ", HHD: " + HHD + ", RAM: " + RAM + ", displaySize: " + displaySize +
+                ", OS: " + OS + ", color: " + color + ", USB_count: " + USB_count + ", price: " + price + "}";
     }
 
 }
-

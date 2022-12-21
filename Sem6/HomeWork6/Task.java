@@ -36,7 +36,7 @@ public class Task {
         System.out.print("Выберите брэнд:");
         userRequest.put("brand", scanner.nextLine());
         System.out.print("Введите объем жесткого диска:");
-        userRequest.put("HDD", scanner.nextLine());
+        userRequest.put("HHD", scanner.nextLine());
         System.out.print("Введите объем оперативной памяти:");
         userRequest.put("RAM", scanner.nextLine());
         System.out.print("Введите диагональ дисплея:");
@@ -61,7 +61,7 @@ public class Task {
                 if (userRequest.get("color").equals(laptop.getBrand()) || userRequest.get("color") == "") {
                     if (userRequest.get("OS").equals(laptop.getOS()) || userRequest.get("OS") == "") {
                         if (laptop.getDisplay() >= Integer.parseInt(userRequest.get("display_size")) &&
-                                (laptop.getHDD() >= Integer.parseInt(userRequest.get("HDD"))) &&
+                                (laptop.getHHD() >= Integer.parseInt(userRequest.get("HHD"))) &&
                                 (laptop.getRAM() >= Integer.parseInt(userRequest.get("RAM"))) &&
                                 (laptop.getUSB() >= Integer.parseInt(userRequest.get("USB_count"))) &&
                                 (laptop.getPrice() >= Integer.parseInt(userRequest.get("price")))) {
@@ -72,7 +72,7 @@ public class Task {
                 }
             }
         }
-        
+
         if (noResultsFlag) {
             System.out.print("Введенные Вами параметры поиска не дали результатов.");
         }
