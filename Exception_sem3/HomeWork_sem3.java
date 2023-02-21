@@ -25,7 +25,7 @@ public class HomeWork_sem3 {
 
     }
 
-    private static boolean validation(String login, String password, String confirmPass, String pattern)
+    private static boolean validation(String login, String password, String confirmPassword, String pattern)
             throws WrongLoginException, WrongPasswordException {
         try {
             loginChecker(login, pattern);
@@ -35,7 +35,7 @@ public class HomeWork_sem3 {
         }
 
         try {
-            passwordChecker(password, pattern, confirmPass);
+            passwordChecker(password, pattern, confirmPassword);
         } catch (Exception exc) {
             System.out.println(exc.getMessage());
             throw new WrongPasswordException("Invalid password", exc);
@@ -46,22 +46,22 @@ public class HomeWork_sem3 {
 
     private static void loginChecker(String login, String pattern) throws IOException {
         if (login.length() > 20) {
-            throw new IOException("Длина login должна быть меньше 20 символов");
+            throw new IOException("Длина login должна быть меньше 20 символов.");
         }
         if (!login.matches(pattern)) {
-            throw new IOException("Login должен содержать только латинские буквы, цифры и знак подчеркивания");
+            throw new IOException("Login должен содержать только латинские буквы, цифры и знак подчеркивания.");
         }
     }
 
-    private static void passwordChecker(String password, String pattern, String confirmPass) throws IOException {
+    private static void passwordChecker(String password, String pattern, String confirmPassword) throws IOException {
         if (password.length() > 20) {
-            throw new IOException("Длина password должна быть меньше 20 символов");
+            throw new IOException("Длина password должна быть меньше 20 символов.");
         }
         if (!password.matches(pattern)) {
-            throw new IOException("Password должен содержать только латинские буквы, цифры и знак подчеркивания!");
+            throw new IOException("Password должен содержать только латинские буквы, цифры и знак подчеркивания.");
         }
-        if (!confirmPass.equals(password)) {
-            throw new IOException("Пароли должны совпадать!");
+        if (!confirmPassword.equals(password)) {
+            throw new IOException("Пароли должны совпадать.");
         }
     }
 }
